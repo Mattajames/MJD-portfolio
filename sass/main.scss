@@ -1,0 +1,267 @@
+@import "../stylesheets/bootstrap";
+@import "globals";
+@import "mixins";
+@import "images";
+@import "infostats";
+
+body{
+    background-color: $steel;
+    margin: 0;
+    padding: 0;
+}
+//.border{
+//    border: solid red;
+//}
+
+h1, {
+    font-family: 'OpenSansExtraBold', sans-serif;
+    font-size: 2.5em;
+}
+h2{
+    font-family: 'OpenSans-Bold', sans-serif;
+    font-size: 2.2em;
+    margin-top: 0.6em;
+    color: $steel;
+}
+h3{
+    font-family: 'Semibold', sans-serif;
+    font-size: 1.5em;
+    margin-top: 0em;
+    color: $steel;
+}
+h4{
+    font-family: 'OpenSans-Regular', sans-serif;
+    font-size: 1em;
+    text-align: left;
+    color: $steel;
+    margin: 0 0 0.3em 0;
+}
+
+p{
+    font-size: .9em;
+    font-family: 'OpenSans-Regular', sans-serif;
+}
+
+.centerpicture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.imgMax{
+    max-width: 100%;
+}
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+    border: solid $dirtGrey 2px;
+}
+//font awsome fix
+.fa{
+    margin-left: 0px
+}
+.starsSprite{
+    max-width: 100%;
+        @media (min-width: 1199px) {
+            max-width: 73%;
+    }
+}
+.container-liquid {
+    margin: 0 auto;
+    padding: 3%; //change in media queries for larger screens
+    @media (min-width: 1199px) {
+        padding: 2%;
+    }
+}
+
+.offwhite{
+    background-color:$offwhite;
+    @include border-radius(10px);
+        @media (min-width: 1199px) {
+          padding-top: 7px;
+        }
+}
+
+.offwhiteTxt{
+    color:$offwhite
+}
+.mjd-logo{
+    background-image: $logo;
+    margin: 0 auto;
+    max-width: 147px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: 45%;
+    background-position-y: 50%;
+}
+
+nav{
+    .button{
+        width: 100%;
+
+        @media (min-width: 1199px) {
+        width: 22%;
+        margin: 0.5em;
+        }
+    }
+    @media (min-width: 1199px) {
+    position: absolute !important;
+    right: 2em;
+    padding: 0;
+    }
+}
+.button {
+    position: relative;
+    float: right;
+      font-family: 'OpenSansExtraBold', sans-serif;
+    text-align: center;
+    padding: 0.8em 0.5em;
+    margin: 0.5em 0em;
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.9);
+    white-space: nowrap;
+    background-color: $offwhite;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    border-bottom-color: #c5c5c5;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.075);
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;shadow: 0 1px 0 #4190AF;
+    &:hover{
+        color: $steel;
+        background:-webkit-linear-gradient(#77d42a 5%, #5cb811 100%);
+        background:-o-linear-gradient(#77d42a 5%, #5cb811 100%);
+        background:linear-gradient(#77d42a 5%, #5cb811 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811');
+        text-decoration: none;
+        background-color: $offwhite;
+        border: 1px solid #77d42a;
+    }
+}
+
+.button:last-child{
+    margin-bottom: 1.5em;
+}
+
+/*/////CASE STUDY SECTION/////*/
+
+.caseBackground{
+    background-color: $white;
+    @include border-radius(8px);
+    margin-top: 2em;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 1px 3px #eee;
+    box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+}
+.caption{
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px
+}
+.more{
+    background-color: $offwhite;
+    overflow: auto;
+    padding: 1em 1.6em;
+    @include border-radius(8px);
+    .morePicture{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+            @media (min-width: 1200px) {
+            margin:0;
+            float:right;
+            }
+    }
+
+    @media (min-width: 1200px) {
+        p {
+            width: 45%;
+            float: left;
+        }
+    }
+}
+.mainVid{
+    border: solid $offwhite 20px;
+    @include border-radius(8px);
+    }
+.spotlight h4{
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+.spotlight p{
+    line-height: 1.6em;
+}
+/*/////WORK SECTION/////*/
+.articalImage{
+    position:relative;
+    top:0;
+    left:0;
+    border:#eee solid 1px;
+    padding: 1.8em;
+    background-color: #fff;
+    background: -webkit-gradient(linear, 10% 40%, 20% 10%, from(#dbdcdd), to(#fff));
+    min-height: 300px;
+    margin: 2em; /*change this in media queries for larger sizes*/
+    border-radius: 2%;
+    -webkit-box-shadow: 0px 1px 3px #eee;
+    box-shadow: rgba(0,0,0,0.3) 0 1px 3px; z-index: 1;
+    h4{
+    font-size: 1.2em;
+    line-height: 1.8em;
+    }
+    .button{
+        @media (max-width: 400px) {
+        display: none;
+        }
+    }
+        .articalDiscription{
+        position:absolute;
+        top:0;
+        left:0;
+        background-color: #fff;
+        width: 100%;
+        height: 299px;
+        margin: 0px auto;
+        padding: 1.2em;
+        border-radius: 2%;
+        z-index: 2;
+        h4{
+            margin-top: 0.5em;
+            }
+        }
+    @media (min-width: 1199px) {
+        margin: 2%;
+    }
+
+
+}
+
+//modal changes
+.reveal-modal{
+    padding: 33px 23px 34px;
+    width: 37%;
+
+
+}
+.slides_container{
+    height: 384px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #000;
+    color: $white;
+    text-align: center;
+}

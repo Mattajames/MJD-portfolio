@@ -1,0 +1,216 @@
+/*Header section frame*/
+
+.siteHead {
+    @include make-row();
+    .logo {
+        @include make-lg-column(2);
+        @media (min-width: 1199px) {
+        margin-left: 1em ;
+        }
+
+    }
+    .textIntro {
+        @include make-sm-column(6);
+        @include make-md-column(6);
+        @include make-lg-column(10);
+        text-align: center;
+             @media (min-width: 768px) {
+                 text-align: left;
+             }
+        @media (min-width: 1199px) {
+        margin-bottom: 2em;
+        margin-left: 1.5em;
+        }
+    }
+    .links {
+        @include make-sm-column(6);
+        @include make-md-column(6);
+            @media (min-width: 1199px) {
+              padding: 0;
+              margin-top: 1em;
+            }
+    }
+}/*END Header section frame*/
+
+/*infoGraphic frame*/
+.infoGraph{
+        margin: 0px !important;
+    @include make-row();
+    p {
+        text-align: center;
+    }
+    .design{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        @include make-sm-column(12);
+        @include make-md-column(12);
+        @include make-lg-column(6);
+    }
+    .dev{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        @include make-sm-column(12);
+        @include make-md-column(12);
+        @include make-lg-column(6);
+    }
+}/*END infoGraphic frame*/
+
+/*infoGraphic Top Row*/
+.infoGraphTopRow{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+     @media (min-width: 768px) {
+            border-bottom: $lightGrey dotted 2px;
+            border-top: $lightGrey dotted 2px;
+            }
+    @include make-row();
+    .igTopLeft{
+        padding: 2em 1em;
+        margin: 0em 2em;
+        border-bottom: $lightGrey dotted 2px;
+        @include make-sm-column(8);
+        @include make-md-column(6);
+        @include make-lg-column(7);
+            @media (min-width: 768px) {
+            margin: 0em;
+            border-bottom: 0;
+            }
+            @media (min-width: 991px) {
+            border-left:  $lightGrey dotted 2px;
+            margin: 1.1em 0 1.4em 0;
+            padding: 0.8em 1em;
+            }
+    }
+    .igTopRight{
+        padding: 2em 1em;
+        margin: 0em 2em;
+        border-bottom: $lightGrey dotted 2px;
+        @include make-sm-column(4);
+        @include make-md-column(6);
+        @include make-lg-column(5);
+            @media (min-width: 768px) {
+            margin: 0.8em 0;
+            border-bottom: 0;
+            border-left:  $lightGrey dotted 2px;
+            }
+            @media (min-width: 991px) {
+            margin: 0.8em 0;
+            padding: 1em;
+            }
+    }
+}
+
+
+.igTopRight br {
+         @media (min-width: 768px) {
+            display: none;
+          }
+}
+
+/*infoGraphic Bottom Row*/
+.infoGraphBottomRow{
+    @include make-row();
+            @media (min-width: 768px) {
+            border-bottom:  $lightGrey dotted 2px;
+            margin: 0.9em 0em;
+            padding-bottom: 0.8em;
+            }
+    .igBottomLeft{
+        padding: 2em 0;
+        margin: 0em 2em;
+        border-bottom: $lightGrey dotted 2px;
+        @include make-sm-column(4);
+        @include make-md-column(4);
+        @include make-lg-column(4);
+            @media (min-width: 768px) {
+            margin: 0em;
+            border-bottom: 0;
+            padding: 0.8em;
+            }
+    }
+    .igCenter{
+        padding: 2em 0;
+        margin: 0em 2em;
+        border-bottom: $lightGrey dotted 2px;
+        @include make-sm-column(4);
+        @include make-md-column(4);
+        @include make-lg-column(4);
+            @media (min-width: 768px) {
+            margin: 0em;
+            border-bottom: 0;
+            padding: 0.8em;
+            border-left:  $lightGrey dotted 2px;
+            border-right:  $lightGrey dotted 2px;
+            }
+    }
+    .igBottomRight{
+        padding: 2em 0;
+        margin: 0em 2em;
+        border-bottom: $lightGrey dotted 2px;
+        @include make-sm-column(4);
+        @include make-md-column(4);
+        @include make-lg-column(4);
+            @media (min-width: 768px) {
+            margin: 0em;
+            border-bottom: 0;
+            padding: 0.8em;
+            }
+            @media (min-width: 1200px) {
+            border-right:  $lightGrey dotted 2px;
+            border-top: 0;
+            height: 282px;//fix for content taking up enough height
+            }
+    }
+
+}
+
+/*spotlight grid*/
+.spotlight{
+    @include make-row();
+    h4{
+        font-size: 1.2em;
+    }
+    .spotLeft{
+        @include make-sm-column(6);
+        @include make-md-column(6);
+        @include make-lg-column(6);
+        }
+    .spotRight{
+        @include make-sm-column(6);
+        @include make-md-column(6);
+        @include make-lg-column(6);
+        }
+}
+
+/*work grid*/
+
+.workRows{
+    @include make-row();
+
+    .one{
+        @include make-sm-column(6);
+        @include make-md-column(6);
+        @include make-lg-column(3);
+        padding: 0px 5px 0px 5px !important;
+    }
+    .two{
+        @include make-sm-column(6);
+        @include make-md-column(6);
+        @include make-lg-column(3);
+        padding: 0px 5px 0px 5px !important;
+    }
+    .three{
+        @include make-sm-column(6);
+        @include make-md-column(6);
+        @include make-lg-column(3);
+        padding: 0px 5px 0px 5px !important;
+    }
+    .four{
+        @include make-sm-column(6);
+        @include make-md-column(6);
+        @include make-lg-column(3);
+        padding: 0px 5px 0px 5px !important;
+    }
+}
+
+

@@ -1,0 +1,42 @@
+$steel: #48545c;
+$offwhite: #e6e6e6;
+$dirtGrey:#6b6b6b;
+$lightGrey:#b4b4b4;
+$Black:#434242;
+$white:#fff;
+$blue: #317FED;
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src:   url('../fonts/OpenSans-Bold.ttf') format("truetype");
+}
+@font-face {
+    font-family: 'SemiboldItalic';
+    src:   url('../fonts/OpenSans-SemiboldItalic.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Semibold';
+    src:   url('../fonts/OpenSans-Semibold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'OpenSansExtraBold';
+    src:   url('../fonts/OpenSans-ExtraBold.ttf')  format('truetype');
+
+}
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src:    url('../fonts/OpenSans-Regular.ttf') format("truetype");
+}
+@font-face {
+    font-family: 'OpenSans-light';
+    src:    url('../fonts/OpenSans-Light.ttf') format("truetype");
+}
