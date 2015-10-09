@@ -28,16 +28,14 @@ $(".articalImage").hover(slide, slide);
 
 
 //Slider in pop up
-		$(function(){
-			$('.slidesEM').slides({
-				preload: true,
-				preloadImage: 'img/loading.gif',
-				play: 5000,
-				pause: 2500,
-				hoverPause: true
-			});
-		});
+ $('.carousel').carousel();
+    $('.carousel').on('slide.bs.carousel', function(e) {
+        var from = $('#myCarousel .carousel-buttons .col-xs-3').index();
+        var next = $(e.relatedTarget);
+        var to =  next.index();
 
+//      	$('#myCarousel .carousel-buttons .col-xs-3').removeClass('active').eq(to).addClass('active');
+    });
 
 
 //Brain animation

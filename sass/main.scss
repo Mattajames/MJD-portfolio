@@ -15,7 +15,7 @@ body{
 
 h1, {
     font-family: 'OpenSansExtraBold', sans-serif;
-    font-size: 2.5em;
+    font-size: 2.3em;
 }
 h2{
     font-family: 'OpenSans-Bold', sans-serif;
@@ -102,19 +102,24 @@ video {
 }
 
 nav{
+
+        @media (min-width: 768px) {
+            position: absolute !important;
+            top:1em;
+            right: 1em;
+            padding: 0;
+        }
+        @media (min-width: 992px) {
+            right: 2em;
+        }
     .button{
         width: 100%;
-
-        @media (min-width: 1199px) {
+        @media (min-width: 768px) {
         width: 22%;
         margin: 0.5em;
         }
     }
-    @media (min-width: 1199px) {
-    position: absolute !important;
-    right: 2em;
-    padding: 0;
-    }
+
 }
 .button {
     position: relative;
@@ -252,16 +257,39 @@ nav{
 
 }
 
-//modal changes
-.reveal-modal{
-    padding: 33px 23px 34px;
-    width: 37%;
 
-
+.carousel{
+    background: $white;
+    margin-top: 0;
+    margin-bottom: 2em;
+    .item img{
+        margin: 0 auto; /* Align slide image horizontally center */
+    }
+    .bs-example{
+        margin: 20px;
+    }
+    .carousel-inner{
+        .item img{
+           min-width: 100%;
+        }
+    }
+    .carousel-indicators {
+        bottom: -20px;
+        .active{
+        background-color: $blue;
+        }
+        li {
+        background-color: $lightGrey;
+        }
+        @media (min-width: 1200px) {
+           bottom: -20px;
+        }
+    }
 }
-.slides_container{
-    height: 384px;
-    margin-bottom: 20px;
+
+
+.modal-body {
+    padding: 0 2.2em;
 }
 
 footer{

@@ -8833,6 +8833,28 @@ button.close {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  /* line 5, ../sass/_mixins.scss */
+  .siteHead .logo {
+    float: left;
+    width: 16.66667%;
+  }
+}
+@media (min-width: 992px) {
+  /* line 5, ../sass/_mixins.scss */
+  .siteHead .logo {
+    float: left;
+    width: 16.66667%;
+  }
 }
 @media (min-width: 1200px) {
   /* line 5, ../sass/_mixins.scss */
@@ -8847,7 +8869,7 @@ button.close {
     margin-left: 1em;
   }
 }
-/* line 12, ../sass/_mixins.scss */
+/* line 14, ../sass/_mixins.scss */
 .siteHead .textIntro {
   position: relative;
   min-height: 1px;
@@ -8864,40 +8886,53 @@ button.close {
   text-align: center;
 }
 @media (min-width: 768px) {
-  /* line 12, ../sass/_mixins.scss */
-  .siteHead .textIntro {
-    float: left;
-    width: 50%;
-  }
-}
-@media (min-width: 992px) {
-  /* line 12, ../sass/_mixins.scss */
-  .siteHead .textIntro {
-    float: left;
-    width: 50%;
-  }
-}
-@media (min-width: 1200px) {
-  /* line 12, ../sass/_mixins.scss */
+  /* line 14, ../sass/_mixins.scss */
   .siteHead .textIntro {
     float: left;
     width: 83.33333%;
   }
 }
-@media (min-width: 768px) {
-  /* line 12, ../sass/_mixins.scss */
+@media (min-width: 992px) {
+  /* line 14, ../sass/_mixins.scss */
   .siteHead .textIntro {
-    text-align: left;
+    float: left;
+    width: 83.33333%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 14, ../sass/_mixins.scss */
+  .siteHead .textIntro {
+    float: left;
+    width: 83.33333%;
   }
 }
 @media (min-width: 1199px) {
-  /* line 12, ../sass/_mixins.scss */
+  /* line 14, ../sass/_mixins.scss */
   .siteHead .textIntro {
     margin-bottom: 2em;
     margin-left: 1.5em;
   }
 }
-/* line 25, ../sass/_mixins.scss */
+@media (max-width: 992px) {
+  /* line 14, ../sass/_mixins.scss */
+  .siteHead .textIntro {
+    padding-top: 2em;
+    padding-left: 1.5em;
+  }
+}
+@media (min-width: 768px) {
+  /* line 14, ../sass/_mixins.scss */
+  .siteHead .textIntro {
+    text-align: left;
+  }
+}
+@media (max-width: 480px) {
+  /* line 14, ../sass/_mixins.scss */
+  .siteHead .textIntro {
+    padding: 0em 1em;
+  }
+}
+/* line 35, ../sass/_mixins.scss */
 .siteHead .links {
   position: relative;
   min-height: 1px;
@@ -8907,32 +8942,43 @@ button.close {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 25, ../sass/_mixins.scss */
+  /* line 35, ../sass/_mixins.scss */
   .siteHead .links {
     float: left;
-    width: 50%;
+    width: 83.33333%;
   }
 }
 @media (min-width: 992px) {
-  /* line 25, ../sass/_mixins.scss */
+  /* line 35, ../sass/_mixins.scss */
+  .siteHead .links {
+    float: left;
+    width: 58.33333%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 35, ../sass/_mixins.scss */
   .siteHead .links {
     float: left;
     width: 50%;
   }
 }
 @media (min-width: 1199px) {
-  /* line 25, ../sass/_mixins.scss */
+  /* line 35, ../sass/_mixins.scss */
   .siteHead .links {
     padding: 0;
-    margin-top: 1em;
+    margin-top: 2.5em;
   }
 }
 
 /*END Header section frame*/
 /*infoGraphic frame*/
-/* line 36, ../sass/_mixins.scss */
+/* line 47, ../sass/_mixins.scss */
 .infoGraph {
   margin: 0px !important;
   margin-left: -15px;
@@ -8947,11 +8993,11 @@ button.close {
 .infoGraph:after {
   clear: both;
 }
-/* line 39, ../sass/_mixins.scss */
+/* line 50, ../sass/_mixins.scss */
 .infoGraph p {
   text-align: center;
 }
-/* line 42, ../sass/_mixins.scss */
+/* line 53, ../sass/_mixins.scss */
 .infoGraph .design {
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -8969,27 +9015,27 @@ button.close {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 42, ../sass/_mixins.scss */
+  /* line 53, ../sass/_mixins.scss */
   .infoGraph .design {
     float: left;
     width: 100%;
   }
 }
 @media (min-width: 992px) {
-  /* line 42, ../sass/_mixins.scss */
+  /* line 53, ../sass/_mixins.scss */
   .infoGraph .design {
     float: left;
     width: 100%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 42, ../sass/_mixins.scss */
+  /* line 53, ../sass/_mixins.scss */
   .infoGraph .design {
     float: left;
     width: 50%;
   }
 }
-/* line 49, ../sass/_mixins.scss */
+/* line 60, ../sass/_mixins.scss */
 .infoGraph .dev {
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -9007,21 +9053,21 @@ button.close {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 49, ../sass/_mixins.scss */
+  /* line 60, ../sass/_mixins.scss */
   .infoGraph .dev {
     float: left;
     width: 100%;
   }
 }
 @media (min-width: 992px) {
-  /* line 49, ../sass/_mixins.scss */
+  /* line 60, ../sass/_mixins.scss */
   .infoGraph .dev {
     float: left;
     width: 100%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 49, ../sass/_mixins.scss */
+  /* line 60, ../sass/_mixins.scss */
   .infoGraph .dev {
     float: left;
     width: 50%;
@@ -9030,7 +9076,7 @@ button.close {
 
 /*END infoGraphic frame*/
 /*infoGraphic Top Row*/
-/* line 59, ../sass/_mixins.scss */
+/* line 70, ../sass/_mixins.scss */
 .infoGraphTopRow {
   margin-left: 0px !important;
   margin-right: 0px !important;
@@ -9038,7 +9084,7 @@ button.close {
   margin-right: -15px;
 }
 @media (min-width: 768px) {
-  /* line 59, ../sass/_mixins.scss */
+  /* line 70, ../sass/_mixins.scss */
   .infoGraphTopRow {
     border-bottom: #b4b4b4 dotted 2px;
     border-top: #b4b4b4 dotted 2px;
@@ -9053,7 +9099,7 @@ button.close {
 .infoGraphTopRow:after {
   clear: both;
 }
-/* line 67, ../sass/_mixins.scss */
+/* line 78, ../sass/_mixins.scss */
 .infoGraphTopRow .igTopLeft {
   padding: 2em 1em;
   margin: 0em 2em;
@@ -9072,42 +9118,42 @@ button.close {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 67, ../sass/_mixins.scss */
+  /* line 78, ../sass/_mixins.scss */
   .infoGraphTopRow .igTopLeft {
     float: left;
     width: 66.66667%;
   }
 }
 @media (min-width: 992px) {
-  /* line 67, ../sass/_mixins.scss */
+  /* line 78, ../sass/_mixins.scss */
   .infoGraphTopRow .igTopLeft {
     float: left;
     width: 50%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 67, ../sass/_mixins.scss */
+  /* line 78, ../sass/_mixins.scss */
   .infoGraphTopRow .igTopLeft {
     float: left;
     width: 58.33333%;
   }
 }
 @media (min-width: 768px) {
-  /* line 67, ../sass/_mixins.scss */
+  /* line 78, ../sass/_mixins.scss */
   .infoGraphTopRow .igTopLeft {
     margin: 0em;
     border-bottom: 0;
   }
 }
 @media (min-width: 991px) {
-  /* line 67, ../sass/_mixins.scss */
+  /* line 78, ../sass/_mixins.scss */
   .infoGraphTopRow .igTopLeft {
     border-left: #b4b4b4 dotted 2px;
     margin: 1.1em 0 1.4em 0;
     padding: 0.8em 1em;
   }
 }
-/* line 84, ../sass/_mixins.scss */
+/* line 95, ../sass/_mixins.scss */
 .infoGraphTopRow .igTopRight {
   padding: 2em 1em;
   margin: 0em 2em;
@@ -9126,28 +9172,28 @@ button.close {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 84, ../sass/_mixins.scss */
+  /* line 95, ../sass/_mixins.scss */
   .infoGraphTopRow .igTopRight {
     float: left;
     width: 33.33333%;
   }
 }
 @media (min-width: 992px) {
-  /* line 84, ../sass/_mixins.scss */
+  /* line 95, ../sass/_mixins.scss */
   .infoGraphTopRow .igTopRight {
     float: left;
     width: 50%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 84, ../sass/_mixins.scss */
+  /* line 95, ../sass/_mixins.scss */
   .infoGraphTopRow .igTopRight {
     float: left;
     width: 41.66667%;
   }
 }
 @media (min-width: 768px) {
-  /* line 84, ../sass/_mixins.scss */
+  /* line 95, ../sass/_mixins.scss */
   .infoGraphTopRow .igTopRight {
     margin: 0.8em 0;
     border-bottom: 0;
@@ -9155,7 +9201,7 @@ button.close {
   }
 }
 @media (min-width: 991px) {
-  /* line 84, ../sass/_mixins.scss */
+  /* line 95, ../sass/_mixins.scss */
   .infoGraphTopRow .igTopRight {
     margin: 0.8em 0;
     padding: 1em;
@@ -9163,14 +9209,14 @@ button.close {
 }
 
 @media (min-width: 768px) {
-  /* line 104, ../sass/_mixins.scss */
+  /* line 115, ../sass/_mixins.scss */
   .igTopRight br {
     display: none;
   }
 }
 
 /*infoGraphic Bottom Row*/
-/* line 111, ../sass/_mixins.scss */
+/* line 122, ../sass/_mixins.scss */
 .infoGraphBottomRow {
   margin-left: -15px;
   margin-right: -15px;
@@ -9185,14 +9231,14 @@ button.close {
   clear: both;
 }
 @media (min-width: 768px) {
-  /* line 111, ../sass/_mixins.scss */
+  /* line 122, ../sass/_mixins.scss */
   .infoGraphBottomRow {
     border-bottom: #b4b4b4 dotted 2px;
     margin: 0.9em 0em;
     padding-bottom: 0.8em;
   }
 }
-/* line 118, ../sass/_mixins.scss */
+/* line 129, ../sass/_mixins.scss */
 .infoGraphBottomRow .igBottomLeft {
   padding: 2em 0;
   margin: 0em 2em;
@@ -9211,35 +9257,35 @@ button.close {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 118, ../sass/_mixins.scss */
+  /* line 129, ../sass/_mixins.scss */
   .infoGraphBottomRow .igBottomLeft {
     float: left;
     width: 33.33333%;
   }
 }
 @media (min-width: 992px) {
-  /* line 118, ../sass/_mixins.scss */
+  /* line 129, ../sass/_mixins.scss */
   .infoGraphBottomRow .igBottomLeft {
     float: left;
     width: 33.33333%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 118, ../sass/_mixins.scss */
+  /* line 129, ../sass/_mixins.scss */
   .infoGraphBottomRow .igBottomLeft {
     float: left;
     width: 33.33333%;
   }
 }
 @media (min-width: 768px) {
-  /* line 118, ../sass/_mixins.scss */
+  /* line 129, ../sass/_mixins.scss */
   .infoGraphBottomRow .igBottomLeft {
     margin: 0em;
     border-bottom: 0;
     padding: 0.8em;
   }
 }
-/* line 131, ../sass/_mixins.scss */
+/* line 142, ../sass/_mixins.scss */
 .infoGraphBottomRow .igCenter {
   padding: 2em 0;
   margin: 0em 2em;
@@ -9258,28 +9304,28 @@ button.close {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 131, ../sass/_mixins.scss */
+  /* line 142, ../sass/_mixins.scss */
   .infoGraphBottomRow .igCenter {
     float: left;
     width: 33.33333%;
   }
 }
 @media (min-width: 992px) {
-  /* line 131, ../sass/_mixins.scss */
+  /* line 142, ../sass/_mixins.scss */
   .infoGraphBottomRow .igCenter {
     float: left;
     width: 33.33333%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 131, ../sass/_mixins.scss */
+  /* line 142, ../sass/_mixins.scss */
   .infoGraphBottomRow .igCenter {
     float: left;
     width: 33.33333%;
   }
 }
 @media (min-width: 768px) {
-  /* line 131, ../sass/_mixins.scss */
+  /* line 142, ../sass/_mixins.scss */
   .infoGraphBottomRow .igCenter {
     margin: 0em;
     border-bottom: 0;
@@ -9288,7 +9334,7 @@ button.close {
     border-right: #b4b4b4 dotted 2px;
   }
 }
-/* line 146, ../sass/_mixins.scss */
+/* line 157, ../sass/_mixins.scss */
 .infoGraphBottomRow .igBottomRight {
   padding: 2em 0;
   margin: 0em 2em;
@@ -9307,28 +9353,28 @@ button.close {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 146, ../sass/_mixins.scss */
+  /* line 157, ../sass/_mixins.scss */
   .infoGraphBottomRow .igBottomRight {
     float: left;
     width: 33.33333%;
   }
 }
 @media (min-width: 992px) {
-  /* line 146, ../sass/_mixins.scss */
+  /* line 157, ../sass/_mixins.scss */
   .infoGraphBottomRow .igBottomRight {
     float: left;
     width: 33.33333%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 146, ../sass/_mixins.scss */
+  /* line 157, ../sass/_mixins.scss */
   .infoGraphBottomRow .igBottomRight {
     float: left;
     width: 33.33333%;
   }
 }
 @media (min-width: 768px) {
-  /* line 146, ../sass/_mixins.scss */
+  /* line 157, ../sass/_mixins.scss */
   .infoGraphBottomRow .igBottomRight {
     margin: 0em;
     border-bottom: 0;
@@ -9336,7 +9382,7 @@ button.close {
   }
 }
 @media (min-width: 1200px) {
-  /* line 146, ../sass/_mixins.scss */
+  /* line 157, ../sass/_mixins.scss */
   .infoGraphBottomRow .igBottomRight {
     border-right: #b4b4b4 dotted 2px;
     border-top: 0;
@@ -9345,7 +9391,7 @@ button.close {
 }
 
 /*spotlight grid*/
-/* line 168, ../sass/_mixins.scss */
+/* line 179, ../sass/_mixins.scss */
 .spotlight {
   margin-left: -15px;
   margin-right: -15px;
@@ -9359,11 +9405,11 @@ button.close {
 .spotlight:after {
   clear: both;
 }
-/* line 170, ../sass/_mixins.scss */
+/* line 181, ../sass/_mixins.scss */
 .spotlight h4 {
   font-size: 1.2em;
 }
-/* line 173, ../sass/_mixins.scss */
+/* line 184, ../sass/_mixins.scss */
 .spotlight .spotLeft {
   position: relative;
   min-height: 1px;
@@ -9379,27 +9425,27 @@ button.close {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 173, ../sass/_mixins.scss */
+  /* line 184, ../sass/_mixins.scss */
   .spotlight .spotLeft {
     float: left;
     width: 50%;
   }
 }
 @media (min-width: 992px) {
-  /* line 173, ../sass/_mixins.scss */
+  /* line 184, ../sass/_mixins.scss */
   .spotlight .spotLeft {
     float: left;
     width: 50%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 173, ../sass/_mixins.scss */
+  /* line 184, ../sass/_mixins.scss */
   .spotlight .spotLeft {
     float: left;
     width: 50%;
   }
 }
-/* line 178, ../sass/_mixins.scss */
+/* line 189, ../sass/_mixins.scss */
 .spotlight .spotRight {
   position: relative;
   min-height: 1px;
@@ -9415,21 +9461,21 @@ button.close {
   padding-right: 15px;
 }
 @media (min-width: 768px) {
-  /* line 178, ../sass/_mixins.scss */
+  /* line 189, ../sass/_mixins.scss */
   .spotlight .spotRight {
     float: left;
     width: 50%;
   }
 }
 @media (min-width: 992px) {
-  /* line 178, ../sass/_mixins.scss */
+  /* line 189, ../sass/_mixins.scss */
   .spotlight .spotRight {
     float: left;
     width: 50%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 178, ../sass/_mixins.scss */
+  /* line 189, ../sass/_mixins.scss */
   .spotlight .spotRight {
     float: left;
     width: 50%;
@@ -9437,7 +9483,7 @@ button.close {
 }
 
 /*work grid*/
-/* line 187, ../sass/_mixins.scss */
+/* line 198, ../sass/_mixins.scss */
 .workRows {
   margin-left: -15px;
   margin-right: -15px;
@@ -9451,7 +9497,7 @@ button.close {
 .workRows:after {
   clear: both;
 }
-/* line 190, ../sass/_mixins.scss */
+/* line 201, ../sass/_mixins.scss */
 .workRows .one {
   position: relative;
   min-height: 1px;
@@ -9468,27 +9514,27 @@ button.close {
   padding: 0px 5px 0px 5px !important;
 }
 @media (min-width: 768px) {
-  /* line 190, ../sass/_mixins.scss */
+  /* line 201, ../sass/_mixins.scss */
   .workRows .one {
     float: left;
     width: 50%;
   }
 }
 @media (min-width: 992px) {
-  /* line 190, ../sass/_mixins.scss */
+  /* line 201, ../sass/_mixins.scss */
   .workRows .one {
     float: left;
     width: 50%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 190, ../sass/_mixins.scss */
+  /* line 201, ../sass/_mixins.scss */
   .workRows .one {
     float: left;
     width: 25%;
   }
 }
-/* line 196, ../sass/_mixins.scss */
+/* line 207, ../sass/_mixins.scss */
 .workRows .two {
   position: relative;
   min-height: 1px;
@@ -9505,27 +9551,27 @@ button.close {
   padding: 0px 5px 0px 5px !important;
 }
 @media (min-width: 768px) {
-  /* line 196, ../sass/_mixins.scss */
+  /* line 207, ../sass/_mixins.scss */
   .workRows .two {
     float: left;
     width: 50%;
   }
 }
 @media (min-width: 992px) {
-  /* line 196, ../sass/_mixins.scss */
+  /* line 207, ../sass/_mixins.scss */
   .workRows .two {
     float: left;
     width: 50%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 196, ../sass/_mixins.scss */
+  /* line 207, ../sass/_mixins.scss */
   .workRows .two {
     float: left;
     width: 25%;
   }
 }
-/* line 202, ../sass/_mixins.scss */
+/* line 213, ../sass/_mixins.scss */
 .workRows .three {
   position: relative;
   min-height: 1px;
@@ -9542,27 +9588,27 @@ button.close {
   padding: 0px 5px 0px 5px !important;
 }
 @media (min-width: 768px) {
-  /* line 202, ../sass/_mixins.scss */
+  /* line 213, ../sass/_mixins.scss */
   .workRows .three {
     float: left;
     width: 50%;
   }
 }
 @media (min-width: 992px) {
-  /* line 202, ../sass/_mixins.scss */
+  /* line 213, ../sass/_mixins.scss */
   .workRows .three {
     float: left;
     width: 50%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 202, ../sass/_mixins.scss */
+  /* line 213, ../sass/_mixins.scss */
   .workRows .three {
     float: left;
     width: 25%;
   }
 }
-/* line 208, ../sass/_mixins.scss */
+/* line 219, ../sass/_mixins.scss */
 .workRows .four {
   position: relative;
   min-height: 1px;
@@ -9579,21 +9625,21 @@ button.close {
   padding: 0px 5px 0px 5px !important;
 }
 @media (min-width: 768px) {
-  /* line 208, ../sass/_mixins.scss */
+  /* line 219, ../sass/_mixins.scss */
   .workRows .four {
     float: left;
     width: 50%;
   }
 }
 @media (min-width: 992px) {
-  /* line 208, ../sass/_mixins.scss */
+  /* line 219, ../sass/_mixins.scss */
   .workRows .four {
     float: left;
     width: 50%;
   }
 }
 @media (min-width: 1200px) {
-  /* line 208, ../sass/_mixins.scss */
+  /* line 219, ../sass/_mixins.scss */
   .workRows .four {
     float: left;
     width: 25%;
@@ -10084,7 +10130,7 @@ body {
 /* line 16, ../sass/main.scss */
 h1 {
   font-family: 'OpenSansExtraBold', sans-serif;
-  font-size: 2.5em;
+  font-size: 2.3em;
 }
 
 /* line 20, ../sass/main.scss */
@@ -10202,27 +10248,34 @@ video {
   background-position-y: 50%;
 }
 
-/* line 105, ../sass/main.scss */
+@media (min-width: 768px) {
+  /* line 104, ../sass/main.scss */
+  nav {
+    position: absolute !important;
+    top: 1em;
+    right: 1em;
+    padding: 0;
+  }
+}
+@media (min-width: 992px) {
+  /* line 104, ../sass/main.scss */
+  nav {
+    right: 2em;
+  }
+}
+/* line 115, ../sass/main.scss */
 nav .button {
   width: 100%;
 }
-@media (min-width: 1199px) {
-  /* line 105, ../sass/main.scss */
+@media (min-width: 768px) {
+  /* line 115, ../sass/main.scss */
   nav .button {
     width: 22%;
     margin: 0.5em;
   }
 }
-@media (min-width: 1199px) {
-  /* line 104, ../sass/main.scss */
-  nav {
-    position: absolute !important;
-    right: 2em;
-    padding: 0;
-  }
-}
 
-/* line 119, ../sass/main.scss */
+/* line 124, ../sass/main.scss */
 .button {
   position: relative;
   float: right;
@@ -10251,7 +10304,7 @@ nav .button {
   -webkit-appearance: none;
   shadow: 0 1px 0 #4190AF;
 }
-/* line 145, ../sass/main.scss */
+/* line 150, ../sass/main.scss */
 .button:hover {
   color: #48545c;
   background: -webkit-linear-gradient(#77d42a 5%, #5cb811 100%);
@@ -10263,13 +10316,13 @@ nav .button {
   border: 1px solid #77d42a;
 }
 
-/* line 157, ../sass/main.scss */
+/* line 162, ../sass/main.scss */
 .button:last-child {
   margin-bottom: 1.5em;
 }
 
 /*/////CASE STUDY SECTION/////*/
-/* line 163, ../sass/main.scss */
+/* line 168, ../sass/main.scss */
 .caseBackground {
   background-color: white;
   -webkit-border-radius: 8px;
@@ -10282,14 +10335,14 @@ nav .button {
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
 }
 
-/* line 171, ../sass/main.scss */
+/* line 176, ../sass/main.scss */
 .caption {
   text-align: center;
   font-style: italic;
   margin-top: 10px;
 }
 
-/* line 176, ../sass/main.scss */
+/* line 181, ../sass/main.scss */
 .more {
   background-color: #e6e6e6;
   overflow: auto;
@@ -10299,7 +10352,7 @@ nav .button {
   -ms-border-radius: 8px;
   border-radius: 8px;
 }
-/* line 181, ../sass/main.scss */
+/* line 186, ../sass/main.scss */
 .more .morePicture {
   display: block;
   margin-left: auto;
@@ -10307,21 +10360,21 @@ nav .button {
   float: none;
 }
 @media (min-width: 1200px) {
-  /* line 181, ../sass/main.scss */
+  /* line 186, ../sass/main.scss */
   .more .morePicture {
     margin: 0;
     float: right;
   }
 }
 @media (min-width: 1200px) {
-  /* line 193, ../sass/main.scss */
+  /* line 198, ../sass/main.scss */
   .more p {
     width: 45%;
     float: left;
   }
 }
 
-/* line 199, ../sass/main.scss */
+/* line 204, ../sass/main.scss */
 .mainVid {
   border: solid #e6e6e6 20px;
   -webkit-border-radius: 8px;
@@ -10330,19 +10383,19 @@ nav .button {
   border-radius: 8px;
 }
 
-/* line 203, ../sass/main.scss */
+/* line 208, ../sass/main.scss */
 .spotlight h4 {
   margin-top: 1.5em;
   margin-bottom: 0.5em;
 }
 
-/* line 207, ../sass/main.scss */
+/* line 212, ../sass/main.scss */
 .spotlight p {
   line-height: 1.6em;
 }
 
 /*/////WORK SECTION/////*/
-/* line 211, ../sass/main.scss */
+/* line 216, ../sass/main.scss */
 .articalImage {
   position: relative;
   top: 0;
@@ -10359,18 +10412,18 @@ nav .button {
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
   z-index: 1;
 }
-/* line 224, ../sass/main.scss */
+/* line 229, ../sass/main.scss */
 .articalImage h4 {
   font-size: 1.2em;
   line-height: 1.8em;
 }
 @media (max-width: 400px) {
-  /* line 228, ../sass/main.scss */
+  /* line 233, ../sass/main.scss */
   .articalImage .button {
     display: none;
   }
 }
-/* line 233, ../sass/main.scss */
+/* line 238, ../sass/main.scss */
 .articalImage .articalDiscription {
   position: absolute;
   top: 0;
@@ -10383,30 +10436,61 @@ nav .button {
   border-radius: 2%;
   z-index: 2;
 }
-/* line 244, ../sass/main.scss */
+/* line 249, ../sass/main.scss */
 .articalImage .articalDiscription h4 {
   margin-top: 0.5em;
 }
 @media (min-width: 1199px) {
-  /* line 211, ../sass/main.scss */
+  /* line 216, ../sass/main.scss */
   .articalImage {
     margin: 2%;
   }
 }
 
-/* line 256, ../sass/main.scss */
-.reveal-modal {
-  padding: 33px 23px 34px;
-  width: 37%;
+/* line 261, ../sass/main.scss */
+.carousel {
+  background: white;
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+/* line 265, ../sass/main.scss */
+.carousel .item img {
+  margin: 0 auto;
+  /* Align slide image horizontally center */
+}
+/* line 268, ../sass/main.scss */
+.carousel .bs-example {
+  margin: 20px;
+}
+/* line 272, ../sass/main.scss */
+.carousel .carousel-inner .item img {
+  min-width: 100%;
+}
+/* line 276, ../sass/main.scss */
+.carousel .carousel-indicators {
+  bottom: -20px;
+}
+/* line 278, ../sass/main.scss */
+.carousel .carousel-indicators .active {
+  background-color: #317fed;
+}
+/* line 281, ../sass/main.scss */
+.carousel .carousel-indicators li {
+  background-color: #b4b4b4;
+}
+@media (min-width: 1200px) {
+  /* line 276, ../sass/main.scss */
+  .carousel .carousel-indicators {
+    bottom: -20px;
+  }
 }
 
-/* line 262, ../sass/main.scss */
-.slides_container {
-  height: 384px;
-  margin-bottom: 20px;
+/* line 291, ../sass/main.scss */
+.modal-body {
+  padding: 0 2.2em;
 }
 
-/* line 267, ../sass/main.scss */
+/* line 295, ../sass/main.scss */
 footer {
   background-color: #000;
   color: white;
