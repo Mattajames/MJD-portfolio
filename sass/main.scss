@@ -124,7 +124,7 @@ nav{
 .button {
     position: relative;
     float: right;
-      font-family: 'OpenSansExtraBold', sans-serif;
+    font-family: 'OpenSansExtraBold', sans-serif;
     text-align: center;
     padding: 0.8em 0.5em;
     margin: 0.5em 0em;
@@ -222,18 +222,13 @@ nav{
     background-color: #fff;
     background: -webkit-gradient(linear, 10% 40%, 20% 10%, from(#dbdcdd), to(#fff));
     min-height: 300px;
-    margin: 2em; /*change this in media queries for larger sizes*/
+    margin: 1.2em; /*change this in media queries for larger sizes*/
     border-radius: 2%;
     -webkit-box-shadow: 0px 1px 3px #eee;
     box-shadow: rgba(0,0,0,0.3) 0 1px 3px; z-index: 1;
     h4{
     font-size: 1.2em;
     line-height: 1.8em;
-    }
-    .button{
-        @media (max-width: 400px) {
-        display: none;
-        }
     }
         .articalDiscription{
         position:absolute;
@@ -261,7 +256,7 @@ nav{
 .carousel{
     background: $white;
     margin-top: 0;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
     .item img{
         margin: 0 auto; /* Align slide image horizontally center */
     }
@@ -274,7 +269,7 @@ nav{
         }
     }
     .carousel-indicators {
-        bottom: -20px;
+        bottom: -40px;
         .active{
         background-color: $blue;
         }
@@ -282,14 +277,24 @@ nav{
         background-color: $lightGrey;
         }
         @media (min-width: 1200px) {
-           bottom: -20px;
+           bottom: -40px;
         }
     }
 }
 
 
 .modal-body {
-    padding: 0 2.2em;
+    padding: 2.2em 2em 4em 2em;
+}
+.modal-header{
+    margin-bottom:0px solid $white !important;
+}
+
+.contacts{
+    margin: 2em 0;
+    h4{
+     line-height: 2em ;
+    }
 }
 
 footer{
