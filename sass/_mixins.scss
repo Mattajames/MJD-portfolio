@@ -91,6 +91,11 @@
             margin: 1.1em 0 1.4em 0;
             padding: 0.8em 1em;
             }
+        &:first-child{
+            @media (min-width: 991px) {
+            border-left:  $lightGrey dotted 0px;
+            }
+        }
     }
     .igTopRight{
         padding: 2em 1em;
@@ -171,6 +176,11 @@
             border-top: 0;
             height: 282px;//fix for content taking up enough height
             }
+        &:last-child{
+            @media (min-width: 991px) {
+            border-right:  $lightGrey dotted 0px;
+            }
+        }
     }
 
 }

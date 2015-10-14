@@ -7808,7 +7808,11 @@ button.close {
         border-left: #b4b4b4 dotted 2px;
         margin: 1.1em 0 1.4em 0;
         padding: 0.8em 1em; } }
-  /* line 95, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+    @media (min-width: 991px) {
+      /* line 94, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      .infoGraphTopRow .igTopLeft:first-child {
+        border-left: #b4b4b4 dotted 0px; } }
+  /* line 100, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
   .infoGraphTopRow .igTopRight {
     padding: 2em 1em;
     margin: 0em 2em;
@@ -7826,39 +7830,39 @@ button.close {
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 768px) {
-      /* line 95, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 100, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .infoGraphTopRow .igTopRight {
         float: left;
         width: 33.33333%; } }
     @media (min-width: 992px) {
-      /* line 95, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 100, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .infoGraphTopRow .igTopRight {
         float: left;
         width: 50%; } }
     @media (min-width: 1200px) {
-      /* line 95, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 100, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .infoGraphTopRow .igTopRight {
         float: left;
         width: 41.66667%; } }
     @media (min-width: 768px) {
-      /* line 95, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 100, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .infoGraphTopRow .igTopRight {
         margin: 0.8em 0;
         border-bottom: 0;
         border-left: #b4b4b4 dotted 2px; } }
     @media (min-width: 991px) {
-      /* line 95, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 100, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .infoGraphTopRow .igTopRight {
         margin: 0.8em 0;
         padding: 1em; } }
 
 @media (min-width: 768px) {
-  /* line 115, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+  /* line 120, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
   .igTopRight br {
     display: none; } }
 
 /*infoGraphic Bottom Row*/
-/* line 122, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+/* line 127, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
 .infoGraphBottomRow {
   margin-left: -15px;
   margin-right: -15px; }
@@ -7871,12 +7875,12 @@ button.close {
   .infoGraphBottomRow:after {
     clear: both; }
   @media (min-width: 768px) {
-    /* line 122, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+    /* line 127, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
     .infoGraphBottomRow {
       border-bottom: #b4b4b4 dotted 2px;
       margin: 0.9em 0em;
       padding-bottom: 0.8em; } }
-  /* line 129, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+  /* line 134, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
   .infoGraphBottomRow .igBottomLeft {
     padding: 2em 0;
     margin: 0em 2em;
@@ -7894,27 +7898,27 @@ button.close {
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 768px) {
-      /* line 129, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 134, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .infoGraphBottomRow .igBottomLeft {
         float: left;
         width: 33.33333%; } }
     @media (min-width: 992px) {
-      /* line 129, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 134, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .infoGraphBottomRow .igBottomLeft {
         float: left;
         width: 33.33333%; } }
     @media (min-width: 1200px) {
-      /* line 129, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 134, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .infoGraphBottomRow .igBottomLeft {
         float: left;
         width: 33.33333%; } }
     @media (min-width: 768px) {
-      /* line 129, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 134, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .infoGraphBottomRow .igBottomLeft {
         margin: 0em;
         border-bottom: 0;
         padding: 0.8em; } }
-  /* line 142, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+  /* line 147, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
   .infoGraphBottomRow .igCenter {
     padding: 2em 0;
     margin: 0em 2em;
@@ -7932,29 +7936,29 @@ button.close {
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 768px) {
-      /* line 142, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 147, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .infoGraphBottomRow .igCenter {
         float: left;
         width: 33.33333%; } }
     @media (min-width: 992px) {
-      /* line 142, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 147, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .infoGraphBottomRow .igCenter {
         float: left;
         width: 33.33333%; } }
     @media (min-width: 1200px) {
-      /* line 142, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 147, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .infoGraphBottomRow .igCenter {
         float: left;
         width: 33.33333%; } }
     @media (min-width: 768px) {
-      /* line 142, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 147, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .infoGraphBottomRow .igCenter {
         margin: 0em;
         border-bottom: 0;
         padding: 0.8em;
         border-left: #b4b4b4 dotted 2px;
         border-right: #b4b4b4 dotted 2px; } }
-  /* line 157, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+  /* line 162, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
   .infoGraphBottomRow .igBottomRight {
     padding: 2em 0;
     margin: 0em 2em;
@@ -7972,35 +7976,39 @@ button.close {
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 768px) {
-      /* line 157, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 162, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .infoGraphBottomRow .igBottomRight {
         float: left;
         width: 33.33333%; } }
     @media (min-width: 992px) {
-      /* line 157, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 162, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .infoGraphBottomRow .igBottomRight {
         float: left;
         width: 33.33333%; } }
     @media (min-width: 1200px) {
-      /* line 157, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 162, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .infoGraphBottomRow .igBottomRight {
         float: left;
         width: 33.33333%; } }
     @media (min-width: 768px) {
-      /* line 157, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 162, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .infoGraphBottomRow .igBottomRight {
         margin: 0em;
         border-bottom: 0;
         padding: 0.8em; } }
     @media (min-width: 1200px) {
-      /* line 157, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 162, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .infoGraphBottomRow .igBottomRight {
         border-right: #b4b4b4 dotted 2px;
         border-top: 0;
         height: 282px; } }
+    @media (min-width: 991px) {
+      /* line 179, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      .infoGraphBottomRow .igBottomRight:last-child {
+        border-right: #b4b4b4 dotted 0px; } }
 
 /*spotlight grid*/
-/* line 179, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+/* line 189, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
 .spotlight {
   margin-left: -15px;
   margin-right: -15px; }
@@ -8012,10 +8020,10 @@ button.close {
   /* line 19, /Users/matthewjames/Desktop/MJD-portfolio/stylesheets/bootstrap/mixins/_clearfix.scss */
   .spotlight:after {
     clear: both; }
-  /* line 181, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+  /* line 191, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
   .spotlight h4 {
     font-size: 1.2em; }
-  /* line 184, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+  /* line 194, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
   .spotlight .spotLeft {
     position: relative;
     min-height: 1px;
@@ -8030,21 +8038,21 @@ button.close {
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 768px) {
-      /* line 184, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 194, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .spotlight .spotLeft {
         float: left;
         width: 50%; } }
     @media (min-width: 992px) {
-      /* line 184, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 194, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .spotlight .spotLeft {
         float: left;
         width: 50%; } }
     @media (min-width: 1200px) {
-      /* line 184, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 194, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .spotlight .spotLeft {
         float: left;
         width: 50%; } }
-  /* line 189, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+  /* line 199, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
   .spotlight .spotRight {
     position: relative;
     min-height: 1px;
@@ -8059,23 +8067,23 @@ button.close {
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 768px) {
-      /* line 189, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 199, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .spotlight .spotRight {
         float: left;
         width: 50%; } }
     @media (min-width: 992px) {
-      /* line 189, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 199, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .spotlight .spotRight {
         float: left;
         width: 50%; } }
     @media (min-width: 1200px) {
-      /* line 189, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 199, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .spotlight .spotRight {
         float: left;
         width: 50%; } }
 
 /*work grid*/
-/* line 198, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+/* line 208, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
 .workRows {
   margin-left: -15px;
   margin-right: -15px; }
@@ -8087,7 +8095,7 @@ button.close {
   /* line 19, /Users/matthewjames/Desktop/MJD-portfolio/stylesheets/bootstrap/mixins/_clearfix.scss */
   .workRows:after {
     clear: both; }
-  /* line 201, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+  /* line 211, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
   .workRows .one {
     position: relative;
     min-height: 1px;
@@ -8103,21 +8111,21 @@ button.close {
     padding-right: 15px;
     padding: 0px 5px 0px 5px !important; }
     @media (min-width: 768px) {
-      /* line 201, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 211, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .workRows .one {
         float: left;
         width: 50%; } }
     @media (min-width: 992px) {
-      /* line 201, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 211, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .workRows .one {
         float: left;
         width: 50%; } }
     @media (min-width: 1200px) {
-      /* line 201, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 211, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .workRows .one {
         float: left;
         width: 25%; } }
-  /* line 207, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+  /* line 217, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
   .workRows .two {
     position: relative;
     min-height: 1px;
@@ -8133,21 +8141,21 @@ button.close {
     padding-right: 15px;
     padding: 0px 5px 0px 5px !important; }
     @media (min-width: 768px) {
-      /* line 207, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 217, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .workRows .two {
         float: left;
         width: 50%; } }
     @media (min-width: 992px) {
-      /* line 207, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 217, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .workRows .two {
         float: left;
         width: 50%; } }
     @media (min-width: 1200px) {
-      /* line 207, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 217, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .workRows .two {
         float: left;
         width: 25%; } }
-  /* line 213, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+  /* line 223, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
   .workRows .three {
     position: relative;
     min-height: 1px;
@@ -8163,21 +8171,21 @@ button.close {
     padding-right: 15px;
     padding: 0px 5px 0px 5px !important; }
     @media (min-width: 768px) {
-      /* line 213, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 223, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .workRows .three {
         float: left;
         width: 50%; } }
     @media (min-width: 992px) {
-      /* line 213, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 223, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .workRows .three {
         float: left;
         width: 50%; } }
     @media (min-width: 1200px) {
-      /* line 213, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 223, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .workRows .three {
         float: left;
         width: 25%; } }
-  /* line 219, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+  /* line 229, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
   .workRows .four {
     position: relative;
     min-height: 1px;
@@ -8193,17 +8201,17 @@ button.close {
     padding-right: 15px;
     padding: 0px 5px 0px 5px !important; }
     @media (min-width: 768px) {
-      /* line 219, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 229, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .workRows .four {
         float: left;
         width: 50%; } }
     @media (min-width: 992px) {
-      /* line 219, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 229, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .workRows .four {
         float: left;
         width: 50%; } }
     @media (min-width: 1200px) {
-      /* line 219, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
+      /* line 229, /Users/matthewjames/Desktop/MJD-portfolio/sass/_mixins.scss */
       .workRows .four {
         float: left;
         width: 25%; } }
