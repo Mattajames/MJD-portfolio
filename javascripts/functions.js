@@ -244,8 +244,8 @@ function WorkModals(obj){
            this[field] = obj[field];
          }
        }
-    var headerHTML =    '<div id="' + id + '" class="modal  modal-lgfade" role="dialog">'
-                        + '<div class="modal-dialog ">'
+    var headerHTML =    '<div id="' + id + '" class="modal fade" role="dialog">'
+                        + '<div class="modal-dialog">'
                         + '<div class="modal-content">'
                         + '<div class="modal-header">'
                         + '<button type="button" class="close" data-dismiss="modal">&times;</button>'
