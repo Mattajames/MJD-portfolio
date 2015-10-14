@@ -10297,7 +10297,6 @@ nav .button {
   margin: 0.5em 0em;
   display: inline-block;
   width: 100%;
-  font-weight: bold;
   color: #333;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
   white-space: nowrap;
@@ -10316,7 +10315,7 @@ nav .button {
   -webkit-appearance: none;
   shadow: 0 1px 0 #4190AF;
 }
-/* line 150, ../sass/main.scss */
+/* line 149, ../sass/main.scss */
 .button:hover {
   color: #48545c;
   background: -webkit-linear-gradient(#77d42a 5%, #5cb811 100%);
@@ -10328,13 +10327,13 @@ nav .button {
   border: 1px solid #77d42a;
 }
 
-/* line 162, ../sass/main.scss */
+/* line 161, ../sass/main.scss */
 .button:last-child {
   margin-bottom: 1.5em;
 }
 
 /*/////CASE STUDY SECTION/////*/
-/* line 168, ../sass/main.scss */
+/* line 167, ../sass/main.scss */
 .caseBackground {
   background-color: white;
   -webkit-border-radius: 8px;
@@ -10347,14 +10346,14 @@ nav .button {
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
 }
 
-/* line 176, ../sass/main.scss */
+/* line 175, ../sass/main.scss */
 .caption {
   text-align: center;
   font-style: italic;
   margin-top: 10px;
 }
 
-/* line 181, ../sass/main.scss */
+/* line 180, ../sass/main.scss */
 .more {
   background-color: #e6e6e6;
   overflow: auto;
@@ -10364,7 +10363,7 @@ nav .button {
   -ms-border-radius: 8px;
   border-radius: 8px;
 }
-/* line 186, ../sass/main.scss */
+/* line 185, ../sass/main.scss */
 .more .morePicture {
   display: block;
   margin-left: auto;
@@ -10372,21 +10371,21 @@ nav .button {
   float: none;
 }
 @media (min-width: 1200px) {
-  /* line 186, ../sass/main.scss */
+  /* line 185, ../sass/main.scss */
   .more .morePicture {
     margin: 0;
     float: right;
   }
 }
 @media (min-width: 1200px) {
-  /* line 198, ../sass/main.scss */
+  /* line 197, ../sass/main.scss */
   .more p {
     width: 45%;
     float: left;
   }
 }
 
-/* line 204, ../sass/main.scss */
+/* line 203, ../sass/main.scss */
 .mainVid {
   border: solid #e6e6e6 20px;
   -webkit-border-radius: 8px;
@@ -10395,19 +10394,19 @@ nav .button {
   border-radius: 8px;
 }
 
-/* line 208, ../sass/main.scss */
+/* line 207, ../sass/main.scss */
 .spotlight h4 {
   margin-top: 1.5em;
   margin-bottom: 0.5em;
 }
 
-/* line 212, ../sass/main.scss */
+/* line 211, ../sass/main.scss */
 .spotlight p {
   line-height: 1.6em;
 }
 
 /*/////WORK SECTION/////*/
-/* line 216, ../sass/main.scss */
+/* line 215, ../sass/main.scss */
 .articalImage {
   position: relative;
   top: 0;
@@ -10424,12 +10423,12 @@ nav .button {
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
   z-index: 1;
 }
-/* line 229, ../sass/main.scss */
+/* line 228, ../sass/main.scss */
 .articalImage h4 {
   font-size: 1.2em;
   line-height: 1.8em;
 }
-/* line 233, ../sass/main.scss */
+/* line 232, ../sass/main.scss */
 .articalImage .articalDiscription {
   position: absolute;
   top: 0;
@@ -10442,75 +10441,75 @@ nav .button {
   border-radius: 2%;
   z-index: 2;
 }
-/* line 244, ../sass/main.scss */
+/* line 243, ../sass/main.scss */
 .articalImage .articalDiscription h4 {
   margin-top: 0.5em;
 }
 @media (min-width: 1199px) {
-  /* line 216, ../sass/main.scss */
+  /* line 215, ../sass/main.scss */
   .articalImage {
     margin: 2%;
   }
 }
 
-/* line 256, ../sass/main.scss */
+/* line 255, ../sass/main.scss */
 .carousel {
   background: white;
   margin-top: 0;
   margin-bottom: 3em;
 }
-/* line 260, ../sass/main.scss */
+/* line 259, ../sass/main.scss */
 .carousel .item img {
   margin: 0 auto;
   /* Align slide image horizontally center */
 }
-/* line 263, ../sass/main.scss */
+/* line 262, ../sass/main.scss */
 .carousel .bs-example {
   margin: 20px;
 }
-/* line 267, ../sass/main.scss */
+/* line 266, ../sass/main.scss */
 .carousel .carousel-inner .item img {
   min-width: 100%;
 }
-/* line 271, ../sass/main.scss */
+/* line 270, ../sass/main.scss */
 .carousel .carousel-indicators {
   bottom: -40px;
 }
-/* line 273, ../sass/main.scss */
+/* line 272, ../sass/main.scss */
 .carousel .carousel-indicators .active {
   background-color: #317fed;
 }
-/* line 276, ../sass/main.scss */
+/* line 275, ../sass/main.scss */
 .carousel .carousel-indicators li {
   background-color: #b4b4b4;
 }
 @media (min-width: 1200px) {
-  /* line 271, ../sass/main.scss */
+  /* line 270, ../sass/main.scss */
   .carousel .carousel-indicators {
     bottom: -40px;
   }
 }
 
-/* line 286, ../sass/main.scss */
+/* line 285, ../sass/main.scss */
 .modal-body {
   padding: 2.2em 2em 4em 2em;
 }
 
-/* line 289, ../sass/main.scss */
+/* line 288, ../sass/main.scss */
 .modal-header {
   margin-bottom: 0px solid white !important;
 }
 
-/* line 293, ../sass/main.scss */
+/* line 292, ../sass/main.scss */
 .contacts {
   margin: 2em 0;
 }
-/* line 295, ../sass/main.scss */
+/* line 294, ../sass/main.scss */
 .contacts h4 {
   line-height: 2em;
 }
 
-/* line 300, ../sass/main.scss */
+/* line 299, ../sass/main.scss */
 footer {
   background-color: #000;
   color: white;
